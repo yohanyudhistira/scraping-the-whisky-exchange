@@ -41,4 +41,4 @@ for link in product_links:
 
 df = pd.DataFrame(whisky_list)
 print(df.head())
-df.to_csv('whisky.csv')
+df.to_csv('whisky.csv', index=False)
